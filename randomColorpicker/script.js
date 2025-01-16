@@ -1,5 +1,5 @@
 let main = document.getElementById('main-container')
-for (let i = 0; i < 30; i++) {
+for (let i = 0; i < 36; i++) {
     let singleDiv = document.createElement('div')
     main.appendChild(singleDiv)
     let rColor = randomColor();

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="left-container" class="left-Container">
+            <div class="color_and_text animate__animated animate__bounceIn">
+                <textarea name="" id="text_area" rows="10" cols="80" placeholder="Write your note here:- "
+                    class="animate__animated"></textarea>
+                <div class="color"><input type="color" name="" id="color"></div>
+
+            </div>
+            <div id="button" class="buttonss animate__animated animate__bounceIn">
+                <button id="addNotes" class="bn632-hover bn27">Add note</button>
+                <button id="delete_all" class="bn632-hover bn27">Delete All</button>
+            </div>
+        </div>
+
+        <div id="right-container" class="right-container">
+            <h1>Your Notes Wall</h1>
+            <p id="para">You have not added a note yet.</p>
+            <div id="notes_container" class="right-container-notes"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
