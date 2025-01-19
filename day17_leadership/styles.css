@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f133e;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(17, 121, 206);
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    outline: none;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+
+button {
+    outline: none;
+    width: 150px;
+    height: 44px;
+    padding: 10px;
+    font-size: 18px;
+    background: #6d4534;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+
+}
+
+select {
+    width: 150px;
+    height: 44px;
+    font-size: 16px;
+    color: black;
+    margin-right: 10px;
+}
+
+.container {
+    width: 60%;
+    max-height: 430px;
+    border: 2px solid rgb(17, 121, 206);
+    padding: 30px 20px;
+    margin: 40px 40px 0;
+    display: none;
+    overflow: scroll;
+    /* scrollbar-width: 0px; */
+
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+::placeholder {
+    color: black;
+}
+
+.cards {
+    padding: 20px;
+    background: #ffb02e;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px dashed #fff;
+    display: flex;
+    align-items: center;
+}
+
+.cards span {
+    margin-right: 20px;
+}
+
+button.del {
+    width: auto;
+    border-radius: 5px;
+    padding: 0px 15px;
+    margin-right: 20px;
+}
+
+button.but1,
+button.but2 {
+    width: auto;
+    border-radius: 5px;
+    padding: 0px 15px;
+    background: transparent;
+    border: 1px solid #6d4534;
+    color: #6d4534;
+    margin-right: 20px;
+}

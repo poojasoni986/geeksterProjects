@@ -33,7 +33,7 @@ function createnotes() {
     toggleplaceholderVisiblity();
     //delete self
     cross_btn.addEventListener("click", function () {
-        console.log(cross_btn);
+        // console.log(cross_btn);
         notes.remove();
         toggleplaceholderVisiblity();
     });
